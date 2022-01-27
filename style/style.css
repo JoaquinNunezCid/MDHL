@@ -1,0 +1,312 @@
+html * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Uchen', serif;
+}
+
+/* BODY */
+
+body {
+    background-image:  url(../assets/fotoperso3.jpg);
+    background-position: 40% 15%;
+    background-attachment:fixed;
+}
+
+/* HEADER */
+header {
+    min-height: 15vh;
+    background-color: rgba(248, 161, 0, 0.63);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.884);
+}
+
+nav a.botNegro {
+    color: rgba(248, 182, 0, 0.904);
+}
+
+nav a.botAmarillo:hover {
+    transition: 100ms;
+    background-color: rgb(255, 230, 0);
+}
+
+nav a.botAmarillo:not(:hover) {
+    transition: 1s;
+    background-color: rgba(214, 169, 19, 0.904);
+}
+
+nav a.botNegro:hover {
+    transition: 100ms;
+    background-color: rgba(43, 41, 41, 0.623);
+}
+    
+nav a.botNegro:not(:hover) {
+    transition: 1s;
+    background-color: black;
+} 
+
+header nav a {
+    color: rgb(0, 0, 0);
+    border:  2px solid black;
+    border-radius: 10px;
+    padding: 2px 6px;
+    background-color: rgba(248, 182, 0, 0.904);
+    text-decoration: none;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh;
+}
+
+h1 {
+    color: black;
+    font-size: 3vw;
+}
+
+img.logo {
+    width: 6vw
+}
+
+/* MAIN */
+
+main {
+    min-height: 75vh;
+    background-color: rgba(34, 34, 34, 0.726);
+    color: rgba(255, 255, 255, 0.658);
+}
+
+main.padding {
+    padding: 0vh 10vw;
+
+}
+
+main .padding {
+    padding: 0vh 2vw;
+}
+
+main.sinGris {
+    background-color: transparent;
+}
+
+div.contenido {
+    padding: 0vw 2vw;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2vw;
+    background-color: black;
+    border-bottom: 10px double rgba(114, 112, 112, 0.349);
+    color: rgb(223, 173, 9);
+    font-family: 'Tourney';
+}
+
+table {
+    margin: 1vh 2vw;
+    font-size: large;
+}
+
+table:hover {
+    background-color: rgba(248, 161, 0, 0.63);
+    transition: 2s;
+}
+
+table:not(:hover) {
+    transition: 1s;
+}
+
+ul li, ol li {
+    list-style-position: inside;
+}
+
+ol {
+    margin-left: 15px;
+}
+
+h5 {
+    font-weight: 900;
+    font-size: 1vw;
+}
+
+th {
+    padding: 0vh 0.5vw;
+}
+
+td, tr, h1.blanco {
+    padding: 0vh 0.5vw;
+    color: whitesmoke
+}
+
+dl div {
+    display: flex;
+    align-items: center;
+    padding: 2vh 2vw;
+}
+
+dt {
+    font-size: large;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 2vw;
+    text-shadow: 10px 10px rgba(245, 245, 245, 0.034);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p.hover:hover, h3.hover:hover, div.hover:hover{
+    background-color: rgba(248, 161, 0, 0.63);
+    transition: 2s;
+}
+
+p.hover:not(:hover), h3.hover:not(:hover), div.hover:not(:hover) {
+    transition: 1s;
+}
+
+section.gris {
+    margin-left: 4vw;
+}
+
+div.list {
+    justify-content: space-around;
+}
+
+section.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+article {
+    width: 33%;
+    padding: 1vw;
+    text-align: center;
+}
+
+a.linkInfo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.658)
+}
+
+iframe:hover {
+    width: 30vw;
+    height: 30vh;
+    transition: 3s;
+    overflow-x: auto;
+}
+
+iframe:not(:hover) {
+    transition: 1s;
+}
+
+main.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.linea {
+    display: flex;
+}
+
+div.linea input {
+    align-self: center;
+}
+
+fieldset div div {
+    display: inline-flex;
+    width: 49%;
+    align-items: baseline;
+}
+
+div.arreglar {
+    flex-direction: column;
+}
+
+div.width {
+    width: 15%;
+}
+
+label, input {
+    margin-right: 1vw;
+}
+
+input{
+    color: whitesmoke;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+input.botonEnviar {
+    border: 2px solid whitesmoke;
+    padding: 4px;
+    background-color: black;
+    text-transform: uppercase;
+}
+
+fieldset {
+    padding: 1vw;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgba(248, 161, 0, 0.466);
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 2vw;
+    text-align: center;
+}
+
+footer div.footer{
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 3vw;
+}
+
+/* MEDIA/EASTER EGG */
+
+@media only screen and (max-width: 1300px) {
+    body {
+        background-image:  url(../assets/fotoperso3.jpg);
+        background-position: 42% 20%;
+        background-attachment:fixed;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        display: none;    
+    }
+
+    footer {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+    
+    body {
+        background-image: url(../assets/nuke.gif);
+        background-size: cover;
+    }
+}
